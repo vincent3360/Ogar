@@ -13,7 +13,7 @@ process.argv.forEach(function(val) {
     if (val == "--noconsole") {
         showConsole = false;
     } else if (val == "--help") {
-        console.log("Proper Usage:node index.js");
+        console.log("Proper Usage: index.js");
         console.log("    --noconsole         Disables the console");
         console.log("    --help              Help menu.");
         console.log("");
